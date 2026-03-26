@@ -10,7 +10,7 @@
   --card-foreground: oklch(0.2 0.02 260);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.2 0.02 260);
-  --primary: oklch(0.6 0.2 25);
+  --primary: oklch(50.336% 0.23304 267.68);
   --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.96 0.005 260);
   --secondary-foreground: oklch(0.2 0.02 260);
@@ -131,6 +131,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
