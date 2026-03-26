@@ -1,12 +1,91 @@
-# sb-neuropath-vit-8g
+## 🚀 NeuroPath AI
 
+An AI-based learning platform that helps students learn better by understanding their strengths and weaknesses.
+
+🌐 Live Demo: https://v0-sb-neuropath-vit.vercel.app/
+📊 PPT: https://v0-neuro-path-ai-design.vercel.app/
+
+# 📌 What is this project?
+NeuroPath AI is a learning platform for Computer Science students.
+Instead of giving the same content to everyone, it adapts to each student.
+It tracks:
+What you understand
+Where you struggle
+How you learn
+And then it suggests what you should do next.
+
+# 🧠 How does it work?
+
+The system creates something like a “student profile” (we call it a digital twin).
+Based on your activity:
+If you do well → it gives harder problems
+If you struggle → it helps you revise basics
+If you make mistakes → it explains them
+So learning becomes more personal and effective.
+
+# ✨ Features
+📚 Personalized learning path
+🧠 Tracks your understanding of each topic
+🎯 Suggests what to learn next
+💻 Checks your code and gives feedback
+📊 Shows your progress
+🏗️ Project Structure
+
+neuro-path-ai/
+
+backend/        → API and server logic  
+ai-engine/      → AI logic (tracking + recommendation)  
+frontend/       → User interface (React)  
+⚙️ How to run
+
+# Clone the repo
+git clone https://github.com/your-username/neuro-path-ai.git
+
+# Go inside folder
+cd neuro-path-ai
+
+# Install frontend
+npm install
+
+# Run frontend
+npm run dev
+
+# Run backend
+uvicorn backend.main:app --reload
+🧩 Main Idea
+
+The goal is simple:
+
+👉 Every student learns differently
+👉 This app tries to adjust to each student
+
+# 🎯 Who is this for?
+Computer Science students
+People preparing for coding interviews
+Anyone who wants structured learning
+
+# 🚀 Future Improvements
+Better AI recommendations
+More subjects/topics
+Real-time analytics
+Full deployment with real users
+
+# 🤝 Contributions
+
+If you’re interested, feel free to contribute!
+You can:
+Improve UI
+Improve AI logic
+Add new features
+💡 Inspiration
+
+We wanted to build something that feels like:
+A personal tutor
+But powered by AI
+
+
+# sb-neuropath-vit
 This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
-
-## Built with v0
-
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
-
-[Continue working on v0 →](https://v0.app/chat/projects/prj_Jxy3p6pQa1TDRvCKuG3hqLrR8tMX)
 
 ## Getting Started
 
@@ -23,6 +102,7 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
 
 ## Learn More
 
