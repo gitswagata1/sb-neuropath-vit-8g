@@ -1,11 +1,11 @@
-## 🚀 NeuroPath AI
+# 🚀 NeuroPath AI
 
 An AI-based learning platform that helps students learn better by understanding their strengths and weaknesses.
 
 🌐 Live Demo: https://v0-sb-neuropath-vit.vercel.app/
 📊 PPT: https://v0-neuro-path-ai-design.vercel.app/
 
-# 📌 What is this project?
+## 📌 What is this project?
 NeuroPath AI is a learning platform for Computer Science students.
 Instead of giving the same content to everyone, it adapts to each student.
 It tracks:
@@ -14,7 +14,7 @@ Where you struggle
 How you learn
 And then it suggests what you should do next.
 
-# 🧠 How does it work?
+## 🧠 How does it work?
 
 The system creates something like a “student profile” (we call it a digital twin).
 Based on your activity:
@@ -23,7 +23,7 @@ If you struggle → it helps you revise basics
 If you make mistakes → it explains them
 So learning becomes more personal and effective.
 
-# ✨ Features
+## ✨ Features
 📚 Personalized learning path
 🧠 Tracks your understanding of each topic
 🎯 Suggests what to learn next
@@ -38,19 +38,19 @@ ai-engine/      → AI logic (tracking + recommendation)
 frontend/       → User interface (React)  
 ⚙️ How to run
 
-# Clone the repo
+### Clone the repo
 git clone https://github.com/your-username/neuro-path-ai.git
 
-# Go inside folder
+### Go inside folder
 cd neuro-path-ai
 
-# Install frontend
+### Install frontend
 npm install
 
-# Run frontend
+### Run frontend
 npm run dev
 
-# Run backend
+### Run backend
 uvicorn backend.main:app --reload
 🧩 Main Idea
 
@@ -59,18 +59,18 @@ The goal is simple:
 👉 Every student learns differently
 👉 This app tries to adjust to each student
 
-# 🎯 Who is this for?
+### 🎯 Who is this for?
 Computer Science students
 People preparing for coding interviews
 Anyone who wants structured learning
 
-# 🚀 Future Improvements
+### 🚀 Future Improvements
 Better AI recommendations
 More subjects/topics
 Real-time analytics
 Full deployment with real users
 
-# 🤝 Contributions
+### 🤝 Contributions
 
 If you’re interested, feel free to contribute!
 You can:
@@ -84,7 +84,7 @@ A personal tutor
 But powered by AI
 
 
-# sb-neuropath-vit
+### sb-neuropath-vit
 This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
 
 ## Getting Started
