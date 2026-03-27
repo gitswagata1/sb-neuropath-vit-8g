@@ -31,12 +31,23 @@ So learning becomes more personal and effective.
 📊 Shows your progress
 🏗️ Project Structure
 
-neuro-path-ai/
 
-backend/        → API and server logic  
-ai-engine/      → AI logic (tracking + recommendation)  
-frontend/       → User interface (React)  
-⚙️ How to run
+# neuro-path-ai/
+│
+├── backend/
+│   ├── main.py
+│   ├── models/
+│   ├── services/
+│   └── routes/
+│
+├── ai-engine/
+│   ├── knowledge_tracing.py
+│   ├── recommender.py
+│   └── code_analyzer.py
+│
+├── frontend/
+   └── (React app)
+
 
 ### Clone the repo
 git clone https://github.com/your-username/neuro-path-ai.git
